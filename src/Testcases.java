@@ -34,6 +34,19 @@ public class Testcases {
 		
 		assertEquals(247,addition);
 	}
+	@Test
+	 public void testdiv()
+		{
+			System.out.println("test3");
+			int result=Calculator.div(12,2);
+			
+			assertEquals(6,result);
+		}
+	@AfterAll
+	public static void m6()
+	{
+		System.out.println("All Testcases Passed");
+	}
 	/*
 	@Test 
 	public void testAddEmployee()
@@ -78,11 +91,6 @@ public class Testcases {
 	}*/
 	//@Test
 	
- public void testdiv()
-	{
-		System.out.println("test3");
-		int result=Calculator.div(12,2);
-		
-		assertEquals(6,result);
-	}
+
+
 }
