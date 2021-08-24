@@ -31,8 +31,8 @@ public class Testcases {
 	{
 		System.out.println("test1");
 		int addition=Calculator.add(123, 124);
-		
-		assertEquals(247,addition);
+	
+		assertEquals(257,addition);
 	}
 	@Test
 	 public void testdiv()
@@ -40,12 +40,12 @@ public class Testcases {
 			System.out.println("test3");
 			int result=Calculator.div(12,2);
 			
-			assertEquals(6,result);
+			assertEquals(3,result);
 		}
 	@AfterAll
 	public static void m6()
 	{
-		System.out.println("All Testcases Passed");
+		System.out.println("All Testcases Failed");
 	}
 	/*
 	@Test 
